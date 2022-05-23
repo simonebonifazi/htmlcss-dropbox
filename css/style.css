@@ -1,0 +1,18 @@
+/* reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generics */
+
+.container-main {
+    max width: 70%;
+    margin: 0 auto;
+}
+
+.container-head-foot {
+    max-width: 85%;
+    margin: 0 auto;
+}
