@@ -9,7 +9,7 @@ body {
 /* generics */
 
 .container-main {
-    max width: 70%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -37,6 +37,10 @@ body {
 
 }
 
+.debug div {
+    border: 1px dashed black;
+}
+
 /* utilities */
 .d-flex {
     display: flex;
@@ -46,8 +50,6 @@ body {
 header {
     position: fixed;
     min-width: 100%;
-
-
 }
 
 .ordering-header {
@@ -67,11 +69,21 @@ h1 {
 }
 
 #jumbo-photo {
-    max-height: 15rem;
+    max-height: 30rem;
 }
 
-.jumbo-paragrapher {
+.jumbo-info {
+    flex-direction: column;
     flex-basis: 30%;
+}
+
+.down {
+    position: relative;
+    top: 70px;
+}
+
+.jumbo-image {
+    width: 70%;
 }
 
 .ordering-jumbo {
