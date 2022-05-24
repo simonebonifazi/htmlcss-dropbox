@@ -329,32 +329,26 @@ li>i {
 
 }
 
-.factories-left {
-    width: calc(100% / 3);
-    flex-wrap: wrap;
-}
-
+.factories-left,
 .factories-right {
     width: calc(100% / 3);
-    height: 150px;
+
 }
+
 
 .main-factory {
     width: calc(100% / 3);
-    height: 150px;
+
 }
 
 .single-factory {
-    width: 50%;
     height: 50%;
 }
 
 .single-factory>img {
-    max-width: 100%;
-}
-
-#small-designit {
     display: block;
+    max-width: 100%;
+    filter: invert(100%);
     height: 5.5rem;
     width: 5rem;
     position: relative;
@@ -363,8 +357,43 @@ li>i {
     transform: translate(-50%, -50%);
 }
 
-.designit {
+.row-top-left,
+.row-bottom-left,
+.row-top-right,
+.row-bottom-right {
+    width: 50%;
+}
 
+.designit {
     background-color: #A2D39B;
     border: 2rem solid #D1E9CD;
+}
+
+.arizona {
+    background-color: #61082B;
+}
+
+.florida {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1C1C;
+}
+
+
+.bicycle {
+    background-color: #D5001F;
+}
+
+.heartscorp {
+    background-color: #B4D0E7;
+}
+
+.lonely-planet {
+    background-color: #0D2481;
+}
+
+.clear-channel {
+    background-color: #FFD830;
 }
