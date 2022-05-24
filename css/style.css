@@ -304,7 +304,7 @@ li>i {
 }
 
 /* section ended */
-/* start dropbox-opportuinities section */
+/* start dropbox-info-cards section */
 .cards-container {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -316,4 +316,55 @@ li>i {
 
 .card>img {
     max-width: 100%;
+}
+
+/* collabs section */
+
+.collabs a {
+    color: #00e;
+}
+
+.partnerships {
+    margin-top: 7rem;
+
+}
+
+.factories-left {
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+}
+
+.factories-right {
+    width: calc(100% / 3);
+    height: 150px;
+}
+
+.main-factory {
+    width: calc(100% / 3);
+    height: 150px;
+}
+
+.single-factory {
+    width: 50%;
+    height: 50%;
+}
+
+.single-factory>img {
+    max-width: 100%;
+}
+
+#small-designit {
+    display: block;
+    height: 5.5rem;
+    width: 5rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.designit {
+
+    background-color: #A2D39B;
+    border: 2rem solid #D1E9CD;
 }
