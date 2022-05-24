@@ -279,6 +279,7 @@ li>i {
 
 .image-cont img {
     max-width: 100%;
+    display: block;
 }
 
 .community-description {
@@ -300,4 +301,19 @@ li>i {
 .btn-white>a {
     text-decoration: none;
     color: #000;
+}
+
+/* section ended */
+/* start dropbox-opportuinities section */
+.cards-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+}
+
+.card>img {
+    max-width: 100%;
 }
