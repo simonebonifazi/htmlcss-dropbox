@@ -9,7 +9,7 @@ body {
 /* generics */
 
 .container-small {
-    max-width: 70%;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -33,6 +33,10 @@ h4 {
     margin: 2rem 0;
 }
 
+h5 {
+    font-size: 1.2rem;
+}
+
 li {
     list-style-type: none;
     padding: 0.7rem 0.5rem;
@@ -49,11 +53,6 @@ li {
 .debug a {
     text-decoration: none;
     color: #000;
-
-    line-height: 1.5rem;
-    vertical-align: middle;
-
-
 }
 
 .debug div {
@@ -93,6 +92,7 @@ header {
 .ordering-header {
     border: 1px dashed #000;
     justify-content: space-between;
+    align-items: center;
 }
 
 header .call-to-action {
@@ -156,7 +156,7 @@ h1 {
     top: 3rem;
 }
 
-/* introduction-section */
+/* promotions-section */
 
 .pseudo-form {
     display: inline-block;
@@ -181,12 +181,11 @@ h1 {
 
 .promo {
     width: 30%;
-
-}
-
-.promo-card {
     border: 0.01rem solid #D0D0D3;
+
 }
+
+
 
 .promo-card>p {
     text-align: center;
@@ -210,7 +209,7 @@ h1 {
 }
 
 .separator {
-    margin: 2rem 0 2rem 1.5rem;
+    margin: 2rem 0;
 }
 
 .fa-check {
@@ -221,10 +220,24 @@ h1 {
     padding-left: 2rem;
 }
 
-/* fa panel
-<i class="fa-solid fa-user"></i>
-<i class="fa-solid fa-users"></i>
-<i class="fa-solid fa-building"></i>
-<i class="fa-solid fa-folder"></i>
-<i class="fa-solid fa-share-nodes"></i>
-<i class="fa-solid fa-check"></i> */
+.best-promo ul li {
+    display: flex;
+}
+
+li>i {
+    margin-right: 0.75rem;
+}
+
+.best-promo button {
+    width: 85%;
+    margin-bottom: 1rem;
+}
+
+.or-buy-now {
+    vertical-align: middle;
+    line-height: 2rem;
+}
+
+/* end section */
+
+/*  */
