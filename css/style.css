@@ -1,8 +1,12 @@
 /* reset */
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -211,8 +215,10 @@ h1 {
     padding-left: 0;
 }
 
-.separator {
+hr {
     margin: 2rem 0;
+    width: 22%;
+    height: 0;
 }
 
 .fa-check {
@@ -326,38 +332,38 @@ li>i {
 
 .partnerships {
     margin-top: 7rem;
-    height: 25rem;
-}
-
-.factories-left,
-.factories-right {
-    width: calc(100% / 3);
+    background-color: #F5F5F5;
 
 }
 
+.partnerships .factories {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 
 
-.single-factory {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.factories .single-factory {
+    width: 50%;
     height: 50%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .single-factory>img {
     display: block;
-    max-width: 100%;
+    max-width: 10rem;
     filter: invert(100%);
-    height: 5.5rem;
-    width: 5rem;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-.row-top-left,
-.row-bottom-left,
-.row-top-right,
-.row-bottom-right {
-    width: 50%;
+    /* height: 5.5rem;
+    width: 5rem; */
 }
 
 .designit {
@@ -395,17 +401,10 @@ li>i {
 }
 
 .main-factory {
-    width: calc(100% / 3);
-    background-color: #F5F5F5;
     padding: 2rem;
-    height: 150%;
 }
 
 .main-factory img {
     display: block;
     width: 45%
-}
-
-.main-factory p {
-    margin-bottom: 3.7rem;
 }
