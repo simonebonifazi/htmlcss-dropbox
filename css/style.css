@@ -28,14 +28,18 @@ section {
     margin-bottom: 7.5rem;
 }
 
+h1 {
+    font-size: 3.5rem;
+}
+
 h3 {
     font-size: 2.6rem;
-    margin: 3rem 0;
+    padding: 3rem 0;
 }
 
 h4 {
     font-size: 1.6rem;
-    margin: 2rem 0;
+    padding: 2rem 0;
 }
 
 h5 {
@@ -47,18 +51,6 @@ li {
     padding: 0.7rem 0.5rem;
 }
 
-/* costruzione blocchi */
-
-/* .debug  {
-    border: 1px dashed #000;
-    min-height: 1.5rem;
-    padding: 0.7rem;
-} */
-
-
-
-
-
 .debug div {
     border: 1px dashed #000;
 }
@@ -66,6 +58,15 @@ li {
 /* utilities */
 .d-flex {
     display: flex;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.move-it {
+    position: relative;
 }
 
 .grey {
@@ -88,7 +89,6 @@ li {
 }
 
 .btn>a {
-    text-decoration: none;
     color: #FFF;
     cursor: pointer;
 }
@@ -105,9 +105,14 @@ li {
 }
 
 .btn-white>a {
-    text-decoration: none;
     cursor: pointer;
     color: #000;
+}
+
+hr {
+    margin: 2rem 0;
+    width: 22%;
+    height: 0;
 }
 
 /* header */
@@ -121,13 +126,15 @@ header {
 }
 
 header a {
-    text-decoration: none;
     color: #000;
 }
 
 .ordering-header {
-    border: 1px dashed #000;
     justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
     align-items: center;
 }
 
@@ -148,13 +155,9 @@ header .call-to-action {
     padding-top: 3.5rem;
 }
 
-h1 {
-    font-size: 3.5rem;
-}
 
 #jumbo-photo {
     max-height: 30rem;
-    box-shadow: 00.5rem #000;
 }
 
 .jumbo-info {
@@ -212,8 +215,6 @@ h1 {
 
 .promo {
     width: 30%;
-
-
 }
 
 
@@ -232,11 +233,6 @@ h1 {
     padding-left: 0;
 }
 
-hr {
-    margin: 2rem 0;
-    width: 22%;
-    height: 0;
-}
 
 .fa-check {
     color: #0061FF;
@@ -328,7 +324,8 @@ li>i {
 
 /* collabs section */
 
-h3 a {
+.intro-collabs a {
+    text-decoration: underline;
     color: #00e;
 }
 
@@ -416,9 +413,10 @@ h3 a {
 }
 
 .start-dropbox {
-    position: relative;
-    bottom: 8rem;
-    left: 45rem;
+    position: absolute;
+    bottom: 5rem;
+    right: 0;
+
 
     width: 15rem;
     border: none;
@@ -426,3 +424,53 @@ h3 a {
 
 /*  end section */
 /* start faq saction */
+
+
+.b-down {
+    border-bottom: 00.15rem solid #D0D0D3;
+    padding: 2rem 0;
+}
+
+.fa-angle-down {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.faq .question p {
+    display: none;
+}
+
+/* .faq .question:hover p {
+    display: inline-block;
+} */
+
+/* end section */
+/* footer */
+
+footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+
+.nav-bar-footer {
+    width: 20%;
+    height: 20rem;
+    padding: 2rem;
+}
+
+.nav-bar-footer a {
+    cursor: pointer;
+    color: #FFF;
+    line-height: 2rem;
+}
+
+.mini-footer {
+    padding: 2rem;
+}
+
+.mini-footer hr {
+    margin: 2rem 0;
+    width: 8.5rem;
+}
