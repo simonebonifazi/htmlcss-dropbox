@@ -326,7 +326,7 @@ li>i {
 
 .partnerships {
     margin-top: 7rem;
-
+    height: 25rem;
 }
 
 .factories-left,
@@ -336,10 +336,6 @@ li>i {
 }
 
 
-.main-factory {
-    width: calc(100% / 3);
-
-}
 
 .single-factory {
     height: 50%;
@@ -396,4 +392,20 @@ li>i {
 
 .clear-channel {
     background-color: #FFD830;
+}
+
+.main-factory {
+    width: calc(100% / 3);
+    background-color: #F5F5F5;
+    padding: 2rem;
+    height: 150%;
+}
+
+.main-factory img {
+    display: block;
+    width: 45%
+}
+
+.main-factory p {
+    margin-bottom: 3.7rem;
 }
