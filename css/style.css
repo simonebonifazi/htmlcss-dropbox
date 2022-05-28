@@ -192,6 +192,18 @@ header .call-to-action {
     font-size: 2.5rem;
     position: relative;
     top: 3rem;
+    animation: arrow 550ms linear infinite alternate;
+}
+
+@keyframes arrow {
+    from {
+        top: 3rem
+    }
+
+    to {
+        top: 5.2rem;
+    }
+
 }
 
 
@@ -450,9 +462,10 @@ li>i {
     display: none;
 }
 
-/* .faq .question:hover p {
+.faq .question:hover p {
     display: inline-block;
-} */
+    margin-top: 2.2rem;
+}
 
 /* end section */
 /* footer */
